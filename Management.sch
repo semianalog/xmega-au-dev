@@ -1,0 +1,438 @@
+EESchema Schematic File Version 2
+LIBS:Altera
+LIBS:AnalogDevices
+LIBS:AOS
+LIBS:Atmel
+LIBS:conn-100mil
+LIBS:conn-2mm
+LIBS:conn-amphenol
+LIBS:conn-cui
+LIBS:conn-fci
+LIBS:conn-jae
+LIBS:conn-linx
+LIBS:conn-molex
+LIBS:conn-tagconnect
+LIBS:conn-te
+LIBS:conn-test
+LIBS:DiodesInc
+LIBS:display
+LIBS:electomech-misc
+LIBS:_electromech
+LIBS:Fairchild
+LIBS:FTDI
+LIBS:Intersil
+LIBS:Lattice
+LIBS:_linear
+LIBS:LinearTech
+LIBS:Littelfuse
+LIBS:logic-4000
+LIBS:logic-7400
+LIBS:MACOM
+LIBS:maxim
+LIBS:mechanical
+LIBS:Microchip
+LIBS:Micron
+LIBS:NXP
+LIBS:onsemi
+LIBS:_passive
+LIBS:pasv-BiTech
+LIBS:pasv-Bourns
+LIBS:pasv-cap
+LIBS:pasv-ind
+LIBS:pasv-Murata
+LIBS:pasv-res
+LIBS:pasv-TDK
+LIBS:pasv-xtal
+LIBS:pcb
+LIBS:power
+LIBS:Recom
+LIBS:semi-diode-DiodesInc
+LIBS:semi-diode-generic
+LIBS:semi-diode-MCC
+LIBS:semi-diode-NXP
+LIBS:semi-diode-OnSemi
+LIBS:semi-diode-ST
+LIBS:semi-diode-Toshiba
+LIBS:_semi
+LIBS:semi-opto-generic
+LIBS:semi-opto-liteon
+LIBS:semi-thyristor-generic
+LIBS:semi-trans-AOS
+LIBS:semi-trans-DiodesInc
+LIBS:semi-trans-EPC
+LIBS:semi-trans-Fairchild
+LIBS:semi-trans-generic
+LIBS:semi-trans-Infineon
+LIBS:semi-trans-IRF
+LIBS:semi-trans-IXYS
+LIBS:semi-trans-NXP
+LIBS:semi-trans-OnSemi
+LIBS:semi-trans-ST
+LIBS:semi-trans-TI
+LIBS:semi-trans-Toshiba
+LIBS:semi-trans-Vishay
+LIBS:silabs
+LIBS:skyworks
+LIBS:st_ic
+LIBS:ST
+LIBS:supertex
+LIBS:symbol
+LIBS:TexasInstruments
+LIBS:Vishay
+LIBS:Xilinx
+LIBS:xmega-cache
+EELAYER 25 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 4 5
+Title "XMEGA AU development board"
+Date "2016-03-21"
+Rev "A"
+Comp "SEMIANALOG"
+Comment1 "DEV-XMEGA-AU"
+Comment2 ""
+Comment3 "CC0: https://creativecommons.org/publicdomain/zero/1.0/"
+Comment4 "Source: https://github.com/semianalog/xmega-au"
+$EndDescr
+$Comp
+L ATXMEGAnA1U-AU U?
+U 10 1 56F02949
+P 4200 1900
+AR Path="/56F02949" Ref="U?"  Part="10" 
+AR Path="/56F01E80/56F02949" Ref="U1"  Part="10" 
+F 0 "U1" H 3900 2167 50  0000 C CNN
+F 1 "ATXMEGA128A1U-AU" H 3900 2076 50  0000 C CNN
+F 2 "IPC7351-Nominal:QFP50P1600X1600X120-100" H 4150 2400 50  0001 C CNN
+F 3 "http://www.atmel.com/images/atmel-8385-8-and-16-bit-avr-microcontroller-atxmega64a1u-atxmega128a1u_datasheet.pdf" H 4250 2500 50  0001 C CNN
+F 4 "MCU ATMEL ATXMEGA128A1U-AU" H 4350 2600 50  0001 C CNN "BOM"
+	10   4200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN-100MIL-M-2x3-SHROUD J?
+U 1 1 56F02951
+P 5300 2700
+AR Path="/56F02951" Ref="J?"  Part="1" 
+AR Path="/56F01E80/56F02951" Ref="J3"  Part="1" 
+F 0 "J3" H 5300 2940 50  0000 C CNN
+F 1 "PDI" H 5300 2849 50  0000 C CNN
+F 2 "conn-100mil:CONN-100MIL-M-2x3-SHROUD" H 5275 2700 50  0001 C CNN
+F 3 "" H 5275 2700 50  0000 C CNN
+F 4 "DIST DIGIKEY 609-2845-ND" H 5300 2700 60  0001 C CNN "BOM"
+	1    5300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F02958
+P 5600 2900
+AR Path="/56F02958" Ref="#PWR?"  Part="1" 
+AR Path="/56F01E80/56F02958" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5600 2900 30  0001 C CNN
+F 1 "GND" H 5600 2830 30  0001 C CNN
+F 2 "" H 5600 2900 60  0000 C CNN
+F 3 "" H 5600 2900 60  0000 C CNN
+	1    5600 2900
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5500 2800
+NoConn ~ 5100 2800
+Text Label 4500 2600 0    50   ~ 0
+PDIC
+Text Label 4500 2500 0    50   ~ 0
+PDID
+$Comp
+L XTAL-ABRACON-ABM8G X?
+U 1 1 56F02963
+P 6300 2400
+AR Path="/56F02963" Ref="X?"  Part="1" 
+AR Path="/56F01E80/56F02963" Ref="X1"  Part="1" 
+F 0 "X1" V 6550 2400 50  0000 C CNN
+F 1 "16MHz" V 6450 2400 50  0000 C CNN
+F 2 "manuf:ABRACON-ABM8G" H 6300 2250 60  0001 C CNN
+F 3 "" H 6300 2400 60  0000 C CNN
+F 4 "DIST DIGIKEY 535-10289-1-ND" H 6300 2400 60  0001 C CNN "BOM"
+	1    6300 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F0296A
+P 6300 2550
+AR Path="/56F0296A" Ref="#PWR?"  Part="1" 
+AR Path="/56F01E80/56F0296A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6300 2550 30  0001 C CNN
+F 1 "GND" H 6300 2480 30  0001 C CNN
+F 2 "" H 6300 2550 60  0000 C CNN
+F 3 "" H 6300 2550 60  0000 C CNN
+	1    6300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-0402 C?
+U 1 1 56F02971
+P 6500 2800
+AR Path="/56F02971" Ref="C?"  Part="1" 
+AR Path="/56F01E80/56F02971" Ref="C19"  Part="1" 
+F 0 "C19" H 6613 2846 50  0000 L CNN
+F 1 "15p" H 6613 2755 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 6500 2800 50  0001 C CNN
+F 3 "" H 6490 2775 60  0000 C CNN
+F 4 "CAP MLCC 15p C0G 5% [0402]" H 7300 3350 60  0001 C CNN "BOM"
+	1    6500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-0402 C?
+U 1 1 56F02979
+P 6100 2800
+AR Path="/56F02979" Ref="C?"  Part="1" 
+AR Path="/56F01E80/56F02979" Ref="C18"  Part="1" 
+F 0 "C18" H 6213 2846 50  0000 L CNN
+F 1 "15p" H 6213 2755 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 6100 2800 50  0001 C CNN
+F 3 "" H 6090 2775 60  0000 C CNN
+F 4 "CAP MLCC 15p C0G 5% [0402]" H 6900 3350 60  0001 C CNN "BOM"
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F02980
+P 6100 2950
+AR Path="/56F02980" Ref="#PWR?"  Part="1" 
+AR Path="/56F01E80/56F02980" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6100 2950 30  0001 C CNN
+F 1 "GND" H 6100 2880 30  0001 C CNN
+F 2 "" H 6100 2950 60  0000 C CNN
+F 3 "" H 6100 2950 60  0000 C CNN
+	1    6100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F02986
+P 6500 2950
+AR Path="/56F02986" Ref="#PWR?"  Part="1" 
+AR Path="/56F01E80/56F02986" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6500 2950 30  0001 C CNN
+F 1 "GND" H 6500 2880 30  0001 C CNN
+F 2 "" H 6500 2950 60  0000 C CNN
+F 3 "" H 6500 2950 60  0000 C CNN
+	1    6500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMUN2231L Q1
+U 1 1 56F0298D
+P 4500 3600
+F 0 "Q1" H 4050 3450 50  0000 C CNN
+F 1 "MMUN2231L" H 4050 3350 50  0000 C CNN
+F 2 "smd-semi:SOT-23" H 4500 3150 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/DTC123E-D.PDF" H 4500 3350 60  0001 C CNN
+F 4 "SEMI ONSEMI MMUN2231L" H 4500 3250 60  0001 C CNN "BOM"
+	1    4500 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F02994
+P 4450 3850
+AR Path="/56F02994" Ref="#PWR?"  Part="1" 
+AR Path="/56F01E80/56F02994" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 3850 30  0001 C CNN
+F 1 "GND" H 4450 3780 30  0001 C CNN
+F 2 "" H 4450 3850 60  0000 C CNN
+F 3 "" H 4450 3850 60  0000 C CNN
+	1    4450 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CRYSTALG X2
+U 1 1 56F029A3
+P 7050 2400
+F 0 "X2" V 7292 2400 50  0000 C CNN
+F 1 "32768" V 7201 2400 50  0000 C CNN
+F 2 "" H 7050 2400 60  0000 C CNN
+F 3 "" H 7050 2400 60  0000 C CNN
+F 4 "DIST DIGIKEY 300-8039-1-ND" H 7050 2400 60  0001 C CNN "BOM"
+	1    7050 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L C-0402 C?
+U 1 1 56F029AB
+P 6850 2600
+AR Path="/56F029AB" Ref="C?"  Part="1" 
+AR Path="/56F01E80/56F029AB" Ref="C30"  Part="1" 
+F 0 "C30" H 6737 2646 50  0000 R CNN
+F 1 "15p" H 6737 2555 50  0000 R CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 6850 2600 50  0001 C CNN
+F 3 "" H 6840 2575 60  0000 C CNN
+F 4 "CAP MLCC 15p C0G 5% [0402]" H 7650 3150 60  0001 C CNN "BOM"
+	1    6850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F029B2
+P 6850 2750
+AR Path="/56F029B2" Ref="#PWR?"  Part="1" 
+AR Path="/56F01E80/56F029B2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6850 2750 30  0001 C CNN
+F 1 "GND" H 6850 2680 30  0001 C CNN
+F 2 "" H 6850 2750 60  0000 C CNN
+F 3 "" H 6850 2750 60  0000 C CNN
+	1    6850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-0402 C?
+U 1 1 56F029B9
+P 7250 2600
+AR Path="/56F029B9" Ref="C?"  Part="1" 
+AR Path="/56F01E80/56F029B9" Ref="C31"  Part="1" 
+F 0 "C31" H 7363 2646 50  0000 L CNN
+F 1 "15p" H 7363 2555 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 7250 2600 50  0001 C CNN
+F 3 "" H 7240 2575 60  0000 C CNN
+F 4 "CAP MLCC 15p C0G 5% [0402]" H 8050 3150 60  0001 C CNN "BOM"
+	1    7250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F029C0
+P 7250 2750
+AR Path="/56F029C0" Ref="#PWR?"  Part="1" 
+AR Path="/56F01E80/56F029C0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7250 2750 30  0001 C CNN
+F 1 "GND" H 7250 2680 30  0001 C CNN
+F 2 "" H 7250 2750 60  0000 C CNN
+F 3 "" H 7250 2750 60  0000 C CNN
+	1    7250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56F029C6
+P 7050 2550
+AR Path="/56F029C6" Ref="#PWR?"  Part="1" 
+AR Path="/56F01E80/56F029C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7050 2550 30  0001 C CNN
+F 1 "GND" H 7050 2480 30  0001 C CNN
+F 2 "" H 7050 2550 60  0000 C CNN
+F 3 "" H 7050 2550 60  0000 C CNN
+	1    7050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESPACK-4X0603-CONV R?
+U 3 1 56F029E2
+P 4450 2950
+AR Path="/56F029E2" Ref="R?"  Part="3" 
+AR Path="/56F01E80/56F029E2" Ref="R12"  Part="3" 
+F 0 "R12" H 4387 2904 50  0000 R CNN
+F 1 "3k3" H 4387 2995 50  0000 R CNN
+F 2 "IPC7351-Nominal:RESCAXE80P160X320X70-8" H 4450 2950 50  0001 C CNN
+F 3 "" H 4450 3000 60  0000 C CNN
+F 4 "DIST DIGIKEY YC164J-3.3KCT-ND" H 4450 2950 60  0001 C CNN "BOM"
+	3    4450 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L RESPACK-4X0603-CONV R?
+U 4 1 56F029EA
+P 4450 3200
+AR Path="/56F029EA" Ref="R?"  Part="4" 
+AR Path="/56F01E80/56F029EA" Ref="R12"  Part="4" 
+F 0 "R12" H 4513 3246 50  0000 L CNN
+F 1 "3k3" H 4513 3155 50  0000 L CNN
+F 2 "IPC7351-Nominal:RESCAXE80P160X320X70-8" H 4450 3200 50  0001 C CNN
+F 3 "" H 4450 3250 60  0000 C CNN
+F 4 "DIST DIGIKEY YC164J-3.3KCT-ND" H 4450 3200 60  0001 C CNN "BOM"
+	4    4450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2700 5500 2700
+Wire Wire Line
+	5600 2900 5500 2900
+Wire Wire Line
+	4800 2600 4800 3350
+Wire Wire Line
+	4400 2400 6200 2400
+Wire Wire Line
+	4400 2300 6000 2300
+Wire Wire Line
+	6500 2100 6500 2700
+Wire Wire Line
+	6500 2400 6400 2400
+Wire Wire Line
+	6300 2550 6300 2500
+Connection ~ 6500 2400
+Wire Wire Line
+	6100 2400 6100 2700
+Connection ~ 6100 2400
+Wire Wire Line
+	6100 2950 6100 2900
+Wire Wire Line
+	6500 2950 6500 2900
+Wire Wire Line
+	4450 3300 4450 3400
+Wire Wire Line
+	4450 3850 4450 3800
+Wire Wire Line
+	4450 3050 4450 3100
+Wire Wire Line
+	6950 2400 6850 2400
+Wire Wire Line
+	6850 2000 6850 2500
+Wire Wire Line
+	6850 2750 6850 2700
+Wire Wire Line
+	7150 2400 7250 2400
+Wire Wire Line
+	7250 1900 7250 2500
+Wire Wire Line
+	7250 2750 7250 2700
+Wire Wire Line
+	7050 2550 7050 2500
+Connection ~ 6850 2400
+Connection ~ 7250 2400
+Wire Wire Line
+	6000 2300 6000 2100
+Wire Wire Line
+	6000 2100 6500 2100
+Wire Wire Line
+	4400 2000 6850 2000
+Wire Wire Line
+	4400 1900 7250 1900
+Wire Wire Line
+	4400 2500 4900 2500
+Wire Wire Line
+	4900 2500 4900 2700
+Wire Wire Line
+	4900 2700 5100 2700
+Wire Wire Line
+	4400 2600 4800 2600
+Wire Wire Line
+	4800 2900 5100 2900
+Connection ~ 4450 3350
+Connection ~ 4800 2900
+Wire Wire Line
+	4800 3350 4450 3350
+Wire Wire Line
+	4800 3600 7650 3600
+Text GLabel 4350 2800 0    50   Input ~ 0
+3V3MCU
+Wire Wire Line
+	4350 2800 4450 2800
+Wire Wire Line
+	4450 2800 4450 2850
+Text GLabel 5550 2700 2    50   Input ~ 0
+3V3MCU
+Text HLabel 7650 3600 2    50   Input ~ 0
+RESET
+$EndSCHEMATC
