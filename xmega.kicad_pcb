@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew "(2016-03-22 BZR 6640, Git d618585)-product")
+(kicad_pcb (version 4) (host pcbnew "(2016-03-18 BZR 6629, Git 60d93d0)-product")
 
   (general
     (links 383)
@@ -65,7 +65,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x210fc_ffffffff)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -1420,7 +1420,7 @@
     )
   )
 
-  (module IPC7351-Nominal:SOP65P640X110-20 (layer F.Cu) (tedit DA8800FD) (tstamp 56EF313B)
+  (module IPC7351-Nominal:SOP65P640X110-20 (layer F.Cu) (tedit 56F1E189) (tstamp 56EF313B)
     (at 65 15 225)
     (descr "SOP,0.65mm pitch;20 pin,4.50mm W X 6.60mm L X 1.10mm H body")
     (path /56EF4451/56EF5535)
@@ -1430,7 +1430,7 @@
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value SN74AHC573PW (at 0 -0.707107 225) (layer F.Fab)
-      (effects (font (size 0.8 0.8) (thickness 0.15)))
+      (effects (font (size 0.8 0.6) (thickness 0.15)))
     )
     (fp_line (start -2.25 -3.404) (end -2.25 -3.427) (layer F.SilkS) (width 0.35))
     (fp_line (start -2.25 -3.427) (end 2.25 -3.427) (layer F.SilkS) (width 0.35))
@@ -1788,7 +1788,7 @@
     )
   )
 
-  (module IPC7351-Nominal:SOJ127P1118X375-28 (layer F.Cu) (tedit D0CDB7BB) (tstamp 56EF31B5)
+  (module IPC7351-Nominal:SOJ127P1118X375-28 (layer F.Cu) (tedit 56F1E193) (tstamp 56EF31B5)
     (at 75 25 45)
     (descr "SO J-Lead,1.27mm pitch (400mil Body);28 pin,10.29mm W X 18.85mm L X 3.75mm H Body")
     (path /56EF4451/56EF54EE)
@@ -1797,7 +1797,7 @@
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value IDT71V256SA (at 0 0 45) (layer F.Fab)
-      (effects (font (size 0.8 0.8) (thickness 0.15)))
+      (effects (font (size 0.8 0.6) (thickness 0.15)))
     )
     (fp_line (start 3.092 -9.425) (end -3.092 -9.425) (layer F.SilkS) (width 0.35))
     (fp_line (start -3.092 -9.425) (end -3.092 9.425) (layer F.SilkS) (width 0.35))
