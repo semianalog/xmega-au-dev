@@ -259,7 +259,7 @@ F 2 "" H 7200 3400 60  0000 C CNN
 F 3 "" H 7200 3400 60  0000 C CNN
 F 4 "DIST DIGIKEY 300-8039-1-ND" H 7200 3400 60  0001 C CNN "BOM"
 	1    7200 3400
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C-0402 C?
