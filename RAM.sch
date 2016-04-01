@@ -88,8 +88,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 5
 Title "XMEGA AU development board"
-Date "2016-03-22"
-Rev "A"
+Date "2016-04-01"
+Rev "B"
 Comp "SEMIANALOG"
 Comment1 "DEV-XMEGA-AU"
 Comment2 ""
