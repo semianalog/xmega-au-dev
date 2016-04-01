@@ -80,6 +80,7 @@ LIBS:symbol
 LIBS:TexasInstruments
 LIBS:Vishay
 LIBS:Xilinx
+LIBS:semi-diode-Semtech
 LIBS:xmega-cache
 EELAYER 25 0
 EELAYER END
