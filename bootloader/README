@@ -1,0 +1,11 @@
+XMEGA128A1U DFU BOOTLOADER
+==========================
+
+I've included this in the repository to make it easy to find and install. This
+is simply the standard AVR1916 bootloader. It can be loaded onto the board with
+something like the following (adapt to your AVR programmer):
+
+avrdude -p x128a1u -c atmelice_pdi -P usb -U flash:w:atxmega128a1u_104.hex
+
+Note that it is licensed separately under the Atmel ASF license (NOT a truly
+open source license!). Read COPYING for details.
